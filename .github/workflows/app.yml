@@ -40,7 +40,6 @@ jobs:
       env: 
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
-
   job-front:
 
     runs-on: ${{ matrix.os }}
